@@ -1,0 +1,237 @@
+body {
+	font-family: 'Merriweather', serif;
+	line-height: 1.5;
+}
+
+.titulo-central {
+	margin-left: 40px;
+}
+
+.titulo-principal {
+	font-size: 50px;
+	color: #696969;
+	padding: 30px
+}
+
+.linha-branca {
+	font-size: 20px;
+	padding-left: 30px;
+	font-style: italic;
+	color: #87CEEB;
+}
+
+.linha-branca:before {
+	content: "“"
+}
+
+.linha-branca:after {
+	content: "“"
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+	padding-right: 60px
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	color: #000000;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #00FA9A;
+	transition: 0.2s;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+h2 {
+	font-size: 20px;
+	padding: 10px 20px;
+	color: #483D8B
+}
+
+h3 {
+	font-size: 18px;
+	padding: 4px 10px;
+	color: #008B8B
+}
+
+.espaco-texto {
+	padding: 5px;
+}
+
+.principal__mapa {
+	margin: 30px;
+	padding:0 20px;
+}
+
+.imagem-mapa {
+	padding-right: 1em;
+	width: 74%;
+	float: left;
+}
+
+.principal__loja {
+	margin: 30px;
+	padding:0 20px;
+}
+
+.principal__convocacao {
+	margin: 30px;
+	padding:0 20px;
+}
+
+.imagem-convocacao {
+	width: 70%;
+	float: right;
+	padding: 1em;
+}
+
+.principal__cidade {
+	margin: 30px;
+	padding:0 20px;
+}
+
+.imagem-cidade {
+	width: 70%;
+	float: left;
+	padding: 1em;
+}
+
+.rodape {
+	height: 700px;
+	width: 1349px;
+}
+
+/*pagina evolução*/
+
+.principal__rachad {
+	margin: 30px;
+	padding:0 20px;
+}
+
+.rachad {
+	width: 70%;
+	float: right;
+	padding:2em;
+}
+
+.elementos {
+	float: left;
+	margin: 1em;
+	width: 50%;
+}
+
+
+.principal__torre {
+	margin: 30px;
+	padding:0 20px;
+}
+
+.titulo-torre {
+	font-size: 20px;
+	padding: 3em 20px 10px 20px;
+	color: #483D8B
+}
+
+.torre {
+	float: right;
+	margin: 1em;
+	width: 70%;
+}
+
+.principal__coliseu {
+	margin: 30px;
+	padding:0 20px;
+}
+
+.titulo-coliseu {
+	font-size: 20px;
+	padding: 12em 20px 10px 20px;
+	color: #483D8B
+}
+
+.coliseu {
+	float: right;
+	margin: 1em;
+	width: 70%;
+}
+
+.link {
+	text-decoration: none;
+	transition: 0.2s;
+}
+
+.link:hover {
+	text-transform: uppercase;
+	text-decoration: underline;
+	color: #00FA9A;
+}
+
+.principal__farm {
+	margin: 30px;
+	padding:0 20px;
+}
+
+.lista {
+	padding: 2em;
+}
+
+.estrela:before {
+	content: "✶"
+}
+
+/*pagina heroi*/
+.principal__itens {
+	margin: 30px;
+	padding:0 20px;
+}
+
+.heroi {
+	float: right;
+	width: 76%;
+	padding: 1em;
+}
+
+.armas {
+	float: left;
+	width: 76%;
+	padding: 1em;
+}
+
+.evolucao {
+	float: right;
+	width: 76%;
+	padding: 1em;
+}
+
+.titulo-despertar {
+	font-size: 20px;
+	padding: 40px 20px 10px 20px;
+	color: #483D8B
+}
+
+.despertar {
+	float: left;
+	width: 79%;
+	padding: 1em ;
+}
+
+.principal__armas {
+	margin: 30px;
+	padding:0 20px;
+}
+
+.principal__eventos {
+	margin: 30px;
+	padding:0 20px;
+}
